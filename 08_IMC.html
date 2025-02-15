@@ -1,0 +1,28 @@
+<script>
+    /*
+    Problema: Cálculo do IMC
+    Desenvolva um programa que contenha uma função que calcule o IMC de uma pessoa. A fórmula para o cálculo do IMC é a seguinte:
+    IMC = peso / altura²
+    */
+
+    //Entrada
+
+    function calculoIMC(p,a){
+
+        let IMC = a * a / p
+
+        return IMC;
+    }
+
+    let peso = Number(prompt(`Qual o seu peso?`));
+    let altura = Number(prompt(`Qual é sua altura`));
+
+    alert(`O calculo do IMG é ${calculoIMC(peso,altura)}`)
+
+
+    //Processamento
+
+
+    //Saída
+
+</script>
