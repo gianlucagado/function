@@ -6,15 +6,15 @@
     */
 
     //ENTRADA
-    function calculo(triangulo){
-       let A = (b * h) / 2;
+    function calculo(triangulo, lado){
+       let A = (triangulo * lado) / 2;
        return A;
  
     }
     let altura = Number(prompt(`Informe a area do triângulo`))
     let base = Number(prompt(`Informe a base dele`))
 
-    alert(calculo(area))
+    alert(calculo(altura, base))
 
     //PROCESSAMENTO
 
